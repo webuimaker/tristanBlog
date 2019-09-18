@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+google.charts.load('current', {'packages':['sankey']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'From');
+        data.addColumn('string', 'To');
+        data.addColumn('number', 'Weight');
+        data.addRows([
+          ['ALL', 'AUTO', 83743],
+          ['ALL', 'ASSAULT', 238110],
+          ['ALL', 'BURGLARY', 326146],
+          ['ALL', 'DOMESTIC', 238592],
+          ['ALL', 'DRUGS', 185641],
+          ['ALL', 'FRAUD', 64715],
+          ['ALL', 'MISC', 117383],
+          ['ALL', 'PROPERTY', 197439],
+          ['ALL', 'THEFT', 368150],
+          ['AUTO', 'DWI', 66522],
+          ['ASSAULT', 'ASSAULT W/INJURY-FAM/DATE VIOL', 72850],
+          ['ASSAULT', 'ASSAULT WITH INJURY', 43738],
+          ['ASSAULT', 'ASSAULT BY CONTACT', 27298],
+          ['ASSAULT', 'ASSAULT BY THREAT', 15017],
+          ['ASSAULT', 'AGG ASSAULT', 13025],
+          ['ASSAULT', 'ASSAULT BY CONTACT FAM/DATING', 11116],
+          ['ASSAULT', 'TERRORISTIC THREAT', 13842],
+          ['BURGLARY', 'BURGLARY OF VEHICLE', 217312],
+          ['BURGLARY', 'BURGLARY OF RESIDENCE', 74242],
+          ['BURGLARY', 'BURGLARY NON RESIDENCE', 31944],
+          ['DOMESTIC', 'FAMILY DISTURBANCE', 164041],
+          ['DOMESTIC', 'RUNAWAY CHILD', 39389],
+          ['DOMESTIC', 'FAMILY DISTURBANCE/PARENTAL', 12119],
+          ['DOMESTIC', 'DATING DISTURBANCE', 10359],
+          ['DRUGS', 'PUBLIC INTOXICATION', 66912],
+          ['DRUGS', 'POSSESSION OF MARIJUANA', 34974],
+          ['DRUGS', 'POSS OF DRUG PARAPHERNALIA', 32680],
+          ['DRUGS', 'POSS CONTROLLED SUB/NARCOTIC', 30326],
+          ['FRAUD', 'FRAUD - OTHER', 14664],
+          ['FRAUD', 'FORGERY AND PASSING', 13034],
+          ['FRAUD', 'CRED CARD ABUSE - OTHER', 12520],
+          ['FRAUD', 'DEBIT CARD ABUSE', 11924],
+          ['MISC', 'HARASSMENT', 59830],
+          ['MISC', 'DISTURBANCE - OTHER', 57553],
+          ['PROPERTY', 'CRIMINAL MISCHIEF', 119062],
+          ['PROPERTY', 'CRIMINAL TRESPASS', 35534],
+          ['PROPERTY', 'CRIMINAL TRESPASS/TRANSIENT', 10872],
+          ['THEFT', 'THΕFT', 200007],
+          ['THEFT', 'THEFT BY SHOPLIFTING', 44845],
+          ['THEFT', 'AUTO THEFT', 37805],
+          ['THEFT', 'IDENTITY THEFT', 20310],
+          ['THEFT', 'THEFT OF BICYCLE', 18251],
+          ['THEFT', 'THEFT OF SERVICE', 13139]]);
+
+        // Sets chart options.
+        var colors =[
+        '#d60000',
+        '#018700',
+        '#b500ff',
+        '#05acc6',
+        '#97ff00',
+        '#ffa52f',
+        '#ff8ec8',
+        '#79525e',
+        '#00fdcf',
+        '#afa5ff'];
+
+
+    var options = {
+      height: 600,
+      width: 800,
+      sankey: {
+        node: {
+          colors: colors
+        },
+        link: {
+          colorMode: 'source',
+          colors: colors
+        },
+        iterations: 1000,
+      }
+    };
+
+        // Instantiates and draws our chart, passing in some options.
+        var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
+        chart.draw(data, options);
+      }
+
+    </script>
+  </head>
+
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div id="sankey_basic"></div>
+  </body>
+</html>

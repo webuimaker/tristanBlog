@@ -1,0 +1,112 @@
+---
+layout: post
+title:  arXiv Harvesting
+date:   2019-09-01 20:53:20 +0300
+description: Downloading, formatting, and analyzing data from every single paper published on arXiv
+img: posts/2019-09-01-arxiv/cover.png
+tags: [Science]
+---
+
+Inspired by [this][mat2vec] cool paper, I wanted to analyze the metadata of a bunch of scientific journal articles.
+By [some][50million] [estimates][2.5millionperyear] there are at least 75 million published journal articles, so I figured I'd start small and only use papers published on [arXiv][arxiv].
+It turns out that someone already published a [handy tool][metha] called *metha* for downloading bulk Open Archives Initiative metadata.
+
+After downloading and configuring metha, I ran the bash command:
+{% highlight shell_session %}
+metha-sync http://export.arxiv.org/oai2 --format arXiv
+{% endhighlight %}
+which downloaded the metadata for every arXiv article in XML format.
+It took a few hours, but in the end I had more then 3 GB of XMl files.
+These files contained entries of the form:
+
+{% highlight xml %}
+ <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+ <dc:title>Partial cubes: structures, characterizations, and constructions</dc:title>
+ <dc:creator>Ovchinnikov, Sergei</dc:creator>
+ <dc:subject>Mathematics - Combinatorics</dc:subject>
+ <dc:description>  Partial cubes are isometric subgraphs of hypercubes. Structures on a graph
+defined by means of semicubes, and Djokovi\'{c}'s and Winkler's relations play
+an important role in the theory of partial cubes. These structures are employed
+in the paper to characterize bipartite graphs and partial cubes of arbitrary
+dimension. New characterizations are established and new proofs of some known
+results are given.
+  The operations of Cartesian product and pasting, and expansion and
+contraction processes are utilized in the paper to construct new partial cubes
+from old ones. In particular, the isometric and lattice dimensions of finite
+partial cubes obtained by means of these operations are calculated.
+</dc:description>
+ <dc:description>Comment: 36 pages, 17 figures</dc:description>
+ <dc:date>2007-03-31</dc:date>
+ <dc:type>text</dc:type>
+ <dc:identifier>http://arxiv.org/abs/0704.0010</dc:identifier>
+ </oai_dc:dc>
+ {% endhighlight %}
+I wrote a script you can see on my [GitHub][sqlite-script] to loop over records in all files and parse the entries for each field, and store the data in a SQLite3 database.
+The fields I extracted were article title, abstract, authors, subjects, unique arXiv identifier, and date.
+The parsing was done using BeautifulSoup and regular expressions, for example, this function created a semicolon-delimited list of all subject keywords of a given journal article:
+
+{% highlight python %}
+regex = re.compile(r'^[^0-9]+$')
+def get_subjects( record ):
+
+  fa = record.find_all('dc:subject')
+  l = [ a.text for a in fa ]
+  l = list(filter(regex.search, l))
+
+  return ';'.join(l)
+{% endhighlight %}
+
+For convenience (assuming your computer has enough RAM), we can convert the SQLite3 database into a Pandas DataFrame.
+It's also useful for analysis purposes to separate the fields and subfields of each article.
+We can do both of these steps using [this script][dataframe-script].
+
+Finally, we can do some data analysis.
+We use [this script][plot-script] to generate plots of field prominence over time for the top 6 fields:
+
+| [![All fields](/assets/img/posts/2019-09-01-arxiv/arxiv_fields_by_year.svg)](/assets/img/posts/2019-09-01-arxiv/arxiv_fields_by_year.svg) |
+|:---:|:---:|
+| All fields |
+
+Interesting! There's been a lot of changes in the popularity of fields in the last 25 or so years. It seems that arXiv was primarily a High Energy Physics journal in the 1990s, but that field's preeminence has since gradually declined since then.
+Pure mathematics increased to a high of about 1/4 around 2015 but has declined slightly since then.
+The big winner seems to be computer science, which has grown significantly in popularity, especially since around 2005.
+
+Let's take a look at the most popular subfield for each of the top 6 fields:
+
+| [![Mathematics](/assets/img/posts/2019-09-01-arxiv/arxiv_fields_by_year_Mathematics.svg)](/assets/img/posts/2019-09-01-arxiv/arxiv_fields_by_year_Mathematics.svg)  | [![Condensed Matter](/assets/img/posts/2019-09-01-arxiv/arxiv_fields_by_year_Condensed-Matter.svg)](/assets/img/posts/2019-09-01-arxiv/arxiv_fields_by_year_Condensed-Matter.svg) |
+|:---:|:---:|
+| Mathematics | Condensed Matter |
+| [![High Energy Physics](/assets/img/posts/2019-09-01-arxiv/arxiv_fields_by_year_High-Energy-Physics.svg)](/assets/img/posts/2019-09-01-arxiv/arxiv_fields_by_year_High-Energy-Physics.svg)  | [![Astrophysics](/assets/img/posts/2019-09-01-arxiv/arxiv_fields_by_year_Astrophysics.svg)](/assets/img/posts/2019-09-01-arxiv/arxiv_fields_by_year_Astrophysics.svg) |
+|:---:|:---:|
+| High Energy Physics | Astrophysics |
+| [![Computer Science](/assets/img/posts/2019-09-01-arxiv/arxiv_fields_by_year_Computer-Science.svg)](/assets/img/posts/2019-09-01-arxiv/arxiv_fields_by_year_Computer-Science.svg)  | [![Physics](/assets/img/posts/2019-09-01-arxiv/arxiv_fields_by_year_Physics.svg)](/assets/img/posts/2019-09-01-arxiv/arxiv_fields_by_year_Physics.svg) |
+|:---:|:---:|
+| Computer Science | Physics |
+
+A few preliminary points are worth mentioning: some fields (*Mathematics*, *Computer Science*, and *Physics* in particular) did not have many papers in the early years, so the data from that period is not necessarily representative.
+Additionally, it seems that the *Astrophysics* section changed their classification system around 2008: before that all papers had the subject *"Astrophysics"*, with no subfield, but after that they started including subfields. And due to the way I extracted the field and subfield names, fields without a subfield have the default subfield name of an empty string, which is why the prominent curve in the *Astrophysics* plot has no label in the legend.
+
+* For *Mathematics*, *PDE Analysis* and *Combinatorics* are hot, *Differential Geometry* is not.
+* For *Condensed Matter*, *Mesoscale and Nanoscale Physics*, and *Materials Science* are hot, *Statistical Mechanics* is not.
+* For *High Energy Physics*, *Experiment* is hot (probably due in large part to the LHC), but most of the other subfields are fairly constant. I'm not sure about the source of the periodic pattern in the *Theory* and *Lattice* subfields.
+* For *Astrophysics*, *Astrophysics of Galaxies* is hot, *Cosmology and Nongalactic Astrophysics* is not.
+* For *Computer Science*, it's no surprise that *Machine Learning* and *Computer Vision* are hot, and *Information Theory* is not.
+* Finally, for *Physics*, *Optics* is hot, and ignoring the outliers in the 1990s, most of the other subfields are fairly constant.
+
+Using the [Google Charts Service][google-charts], I created an interactive Sankey diagram for the 40 most common subjects on arXiv.
+I found that using more than 40 or so subjects made the chart look terrible due to the large number of subfields.
+
+{% include interactive/arxiv_sankey.html %}
+
+If you'd like a copy of the database I generated but for some reason can't run the scripts in the [GitHub Repo][github-repo], send me an email and I'll get it to you.
+
+[mat2vec]: https://www.nature.com/articles/s41586-019-1335-8
+[50million]: https://onlinelibrary.wiley.com/doi/abs/10.1087/20100308
+[2.5millionperyear]: https://www.stm-assoc.org/2015_02_20_STM_Report_2015.pdf
+[arxiv]: https://arxiv.org/
+[metha]: https://github.com/miku/metha
+[sqlite-script]: https://github.com/trislee/arXiv/blob/master/arxiv_sql.py
+[dataframe-script]: https://github.com/trislee/arXiv/blob/master/sql_to_dataframe.py
+[plot-script]: https://github.com/trislee/arXiv/blob/master/generate_plots.py
+[github-repo]: https://github.com/trislee/arXiv/
+[google-charts]: https://developers.google.com/chart/interactive/docs/gallery/sankey

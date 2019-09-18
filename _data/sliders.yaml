@@ -1,0 +1,1955 @@
+# example slider
+- selector: example_slider
+  captions: true
+  images:
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0001_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0001_cover.jpg
+      alt: Cover image for user Mathias
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0001_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0001_profile.jpg
+      alt: Profile image for user Mathias
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0002_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0002_profile.jpg
+      alt: Profile image for user The Forge
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0007_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0007_cover.jpg
+      alt: Cover image for user Johnny F.
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0007_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0007_profile.jpg
+      alt: Profile image for user Johnny F.
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0010_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0010_cover.jpg
+      alt: Cover image for user Curbstomp
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0010_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0010_profile.jpg
+      alt: Profile image for user Curbstomp
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0011_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0011_cover.jpg
+      alt: Cover image for user Ironside
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0011_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0011_profile.jpg
+      alt: Profile image for user Ironside
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0013_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0013_cover.jpg
+      alt: Cover image for user Chronik
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0013_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0013_profile.jpg
+      alt: Profile image for user Chronik
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0016_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0016_cover.jpg
+      alt: Cover image for user TheServantsofKalki
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0016_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0016_profile.jpg
+      alt: Profile image for user TheServantsofKalki
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0017_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0017_cover.jpg
+      alt: Cover image for user Serbon
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0017_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0017_profile.jpg
+      alt: Profile image for user Serbon
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0020_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0020_profile.jpg
+      alt: Profile image for user Natural selector
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0021_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0021_cover.jpg
+      alt: Cover image for user null-1
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0021_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0021_profile.jpg
+      alt: Profile image for user null-1
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0022_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0022_cover.jpg
+      alt: Cover image for user Al-Masih ad-Dajjal
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0022_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0022_profile.jpg
+      alt: Profile image for user Al-Masih ad-Dajjal
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0024_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0024_cover.jpg
+      alt: Cover image for user Hangman
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0024_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0024_profile.jpg
+      alt: Profile image for user Hangman
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0025_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0025_cover.jpg
+      alt: Cover image for user Orgoň
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0025_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0025_profile.jpg
+      alt: Profile image for user Orgoň
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0026_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0026_profile.jpg
+      alt: Profile image for user MoonMan
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0029_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0029_profile.jpg
+      alt: Profile image for user SteelHammer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0030_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0030_cover.jpg
+      alt: Cover image for user Commando
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0030_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0030_profile.jpg
+      alt: Profile image for user Commando
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0031_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0031_profile.jpg
+      alt: Profile image for user Nuke
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0035_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0035_cover.jpg
+      alt: Cover image for user NicoSarko
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0035_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0035_profile.jpg
+      alt: Profile image for user NicoSarko
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0037_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0037_cover.jpg
+      alt: Cover image for user Kurt Sturm
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0037_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0037_profile.jpg
+      alt: Profile image for user Kurt Sturm
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0040_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0040_cover.jpg
+      alt: Cover image for user Reltih
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0040_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0040_profile.jpg
+      alt: Profile image for user Reltih
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0042_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0042_cover.jpg
+      alt: Cover image for user Italo
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0042_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0042_profile.jpg
+      alt: Profile image for user Italo
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0043_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0043_cover.jpg
+      alt: Cover image for user FascistPirate
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0043_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0043_profile.jpg
+      alt: Profile image for user FascistPirate
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0044_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0044_cover.jpg
+      alt: Cover image for user VisnuHitler
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0044_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0044_profile.jpg
+      alt: Profile image for user VisnuHitler
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0046_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0046_cover.jpg
+      alt: Cover image for user Santa
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0046_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0046_profile.jpg
+      alt: Profile image for user Santa
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0048_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0048_profile.jpg
+      alt: Profile image for user Vex
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0049_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0049_cover.jpg
+      alt: Cover image for user Einar Birkemann
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0049_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0049_profile.jpg
+      alt: Profile image for user Einar Birkemann
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0050_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0050_profile.jpg
+      alt: Profile image for user Zeigler
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0051_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0051_profile.jpg
+      alt: Profile image for user NecroCharger
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0052_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0052_cover.jpg
+      alt: Cover image for user Kristjan
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0052_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0052_profile.jpg
+      alt: Profile image for user Kristjan
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0054_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0054_profile.jpg
+      alt: Profile image for user Von Hanz
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0055_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0055_cover.jpg
+      alt: Cover image for user Huddy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0055_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0055_profile.jpg
+      alt: Profile image for user Huddy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0056_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0056_profile.jpg
+      alt: Profile image for user JamesEgbert
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0060_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0060_cover.jpg
+      alt: Cover image for user Chilliers
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0060_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0060_profile.jpg
+      alt: Profile image for user Chilliers
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0061_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0061_cover.jpg
+      alt: Cover image for user WOJTEKKK
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0061_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0061_profile.jpg
+      alt: Profile image for user WOJTEKKK
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0063_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0063_cover.jpg
+      alt: Cover image for user Konstantin
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0063_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0063_profile.jpg
+      alt: Profile image for user Konstantin
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0065_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0065_profile.jpg
+      alt: Profile image for user ArchRain
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0066_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0066_cover.jpg
+      alt: Cover image for user Tante
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0066_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0066_profile.jpg
+      alt: Profile image for user Tante
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0069_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0069_cover.jpg
+      alt: Cover image for user Endzeit Elegy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0069_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0069_profile.jpg
+      alt: Profile image for user Endzeit Elegy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0073_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0073_cover.jpg
+      alt: Cover image for user Georges Sorel
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0073_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0073_profile.jpg
+      alt: Profile image for user Georges Sorel
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0077_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0077_profile.jpg
+      alt: Profile image for user Swerve
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0079_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0079_cover.jpg
+      alt: Cover image for user dinghal
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0079_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0079_profile.jpg
+      alt: Profile image for user dinghal
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0082_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0082_profile.jpg
+      alt: Profile image for user Ungern Sternberg
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0085_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0085_profile.jpg
+      alt: Profile image for user m_ss
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0087_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0087_cover.jpg
+      alt: Cover image for user Wasplord
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0087_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0087_profile.jpg
+      alt: Profile image for user Wasplord
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0088_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0088_profile.jpg
+      alt: Profile image for user Kapitan
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0090_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0090_profile.jpg
+      alt: Profile image for user Celtic Protestant
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0092_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0092_cover.jpg
+      alt: Cover image for user AGondorianNS
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0092_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0092_profile.jpg
+      alt: Profile image for user AGondorianNS
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0094_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0094_cover.jpg
+      alt: Cover image for user miliNS
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0094_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0094_profile.jpg
+      alt: Profile image for user miliNS
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0095_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0095_cover.jpg
+      alt: Cover image for user Strum88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0095_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0095_profile.jpg
+      alt: Profile image for user Strum88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0096_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0096_profile.jpg
+      alt: Profile image for user SanchoPanza
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0098_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0098_profile.jpg
+      alt: Profile image for user OG_Europa
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0099_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0099_profile.jpg
+      alt: Profile image for user Sanguis Venator
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0100_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0100_cover.jpg
+      alt: Cover image for user Relander
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0100_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0100_profile.jpg
+      alt: Profile image for user Relander
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0101_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0101_cover.jpg
+      alt: Cover image for user Nox Aeternus
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0101_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0101_profile.jpg
+      alt: Profile image for user Nox Aeternus
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0109_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0109_cover.jpg
+      alt: Cover image for user Axis14
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0109_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0109_profile.jpg
+      alt: Profile image for user Axis14
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0110_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0110_cover.jpg
+      alt: Cover image for user PanzerMann
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0110_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0110_profile.jpg
+      alt: Profile image for user PanzerMann
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0111_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0111_cover.jpg
+      alt: Cover image for user Подземникъ
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0111_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0111_profile.jpg
+      alt: Profile image for user Подземникъ
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0115_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0115_cover.jpg
+      alt: Cover image for user MrDiCanio
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0115_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0115_profile.jpg
+      alt: Profile image for user MrDiCanio
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0116_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0116_cover.jpg
+      alt: Cover image for user Christus_Imperat
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0116_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0116_profile.jpg
+      alt: Profile image for user Christus_Imperat
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0117_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0117_profile.jpg
+      alt: Profile image for user NukeSO
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0120_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0120_profile.jpg
+      alt: Profile image for user Trithemius88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0121_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0121_cover.jpg
+      alt: Cover image for user Durov
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0121_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0121_profile.jpg
+      alt: Profile image for user Durov
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0122_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0122_cover.jpg
+      alt: Cover image for user MOLOCH
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0122_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0122_profile.jpg
+      alt: Profile image for user MOLOCH
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0123_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0123_profile.jpg
+      alt: Profile image for user Totenseil
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0124_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0124_cover.jpg
+      alt: Cover image for user Nihil Sine Patriae
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0126_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0126_profile.jpg
+      alt: Profile image for user Necromancer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0127_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0127_profile.jpg
+      alt: Profile image for user Victor Breivik
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0128_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0128_profile.jpg
+      alt: Profile image for user Havarðr
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0129_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0129_cover.jpg
+      alt: Cover image for user Tarbus
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0129_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0129_profile.jpg
+      alt: Profile image for user Tarbus
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0131_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0131_profile.jpg
+      alt: Profile image for user Shadow
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0132_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0132_cover.jpg
+      alt: Cover image for user Jighamsa
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0133_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0133_cover.jpg
+      alt: Cover image for user F0X
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0133_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0133_profile.jpg
+      alt: Profile image for user F0X
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0135_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0135_profile.jpg
+      alt: Profile image for user Notfeuer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0136_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0136_cover.jpg
+      alt: Cover image for user Vârcolac
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0138_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0138_cover.jpg
+      alt: Cover image for user GaiusIulius
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0138_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0138_profile.jpg
+      alt: Profile image for user GaiusIulius
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0140_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0140_cover.jpg
+      alt: Cover image for user Cadian Trooper
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0140_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0140_profile.jpg
+      alt: Profile image for user Cadian Trooper
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0141_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0141_profile.jpg
+      alt: Profile image for user HOsw3ld18
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0143_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0143_profile.jpg
+      alt: Profile image for user Militis
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0144_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0144_cover.jpg
+      alt: Cover image for user Kolarov
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0144_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0144_profile.jpg
+      alt: Profile image for user Kolarov
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0147_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0147_cover.jpg
+      alt: Cover image for user Orion
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0147_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0147_profile.jpg
+      alt: Profile image for user Orion
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0148_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0148_profile.jpg
+      alt: Profile image for user Junssi
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0149_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0149_profile.jpg
+      alt: Profile image for user MillionsOfDeadGommies
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0151_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0151_profile.jpg
+      alt: Profile image for user Джордан Джереб
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0152_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0152_cover.jpg
+      alt: Cover image for user SOLAR
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0152_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0152_profile.jpg
+      alt: Profile image for user SOLAR
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0153_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0153_profile.jpg
+      alt: Profile image for user helterskelter.exe
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0156_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0156_cover.jpg
+      alt: Cover image for user Someone
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0156_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0156_profile.jpg
+      alt: Profile image for user Someone
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0159_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0159_profile.jpg
+      alt: Profile image for user Sobk
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0160_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0160_cover.jpg
+      alt: Cover image for user Staunchy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0160_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0160_profile.jpg
+      alt: Profile image for user Staunchy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0164_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0164_cover.jpg
+      alt: Cover image for user Atgeir
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0166_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0166_cover.jpg
+      alt: Cover image for user Vr4
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0166_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0166_profile.jpg
+      alt: Profile image for user Vr4
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0167_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0167_profile.jpg
+      alt: Profile image for user IlCrociato33
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0168_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0168_cover.jpg
+      alt: Cover image for user Monkey Man Division
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0168_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0168_profile.jpg
+      alt: Profile image for user Monkey Man Division
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0170_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0170_profile.jpg
+      alt: Profile image for user hythyn
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0171_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0171_profile.jpg
+      alt: Profile image for user STMV
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0172_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0172_cover.jpg
+      alt: Cover image for user Sunwheel
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0172_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0172_profile.jpg
+      alt: Profile image for user Sunwheel
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0174_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0174_cover.jpg
+      alt: Cover image for user Faust Geist
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0174_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0174_profile.jpg
+      alt: Profile image for user Faust Geist
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0175_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0175_cover.jpg
+      alt: Cover image for user Sakdalista
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0175_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0175_profile.jpg
+      alt: Profile image for user Sakdalista
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0176_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0176_profile.jpg
+      alt: Profile image for user Aamon
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0177_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0177_cover.jpg
+      alt: Cover image for user Freikorps
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0177_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0177_profile.jpg
+      alt: Profile image for user Freikorps
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0178_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0178_cover.jpg
+      alt: Cover image for user Yorkie
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0178_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0178_profile.jpg
+      alt: Profile image for user Yorkie
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0184_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0184_profile.jpg
+      alt: Profile image for user IntolerantSocialist
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0190_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0190_cover.jpg
+      alt: Cover image for user Nemless
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0192_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0192_cover.jpg
+      alt: Cover image for user Reaper88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0193_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0193_cover.jpg
+      alt: Cover image for user Neovindex
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0193_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0193_profile.jpg
+      alt: Profile image for user Neovindex
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0195_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0195_profile.jpg
+      alt: Profile image for user Vlach
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0196_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0196_cover.jpg
+      alt: Cover image for user Marc-André
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0196_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0196_profile.jpg
+      alt: Profile image for user Marc-André
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0198_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0198_cover.jpg
+      alt: Cover image for user Robert Matthews
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0198_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0198_profile.jpg
+      alt: Profile image for user Robert Matthews
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0199_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0199_cover.jpg
+      alt: Cover image for user Gigaboltro
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0199_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0199_profile.jpg
+      alt: Profile image for user Gigaboltro
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0200_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0200_profile.jpg
+      alt: Profile image for user PrincesOfDarkness
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0201_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0201_cover.jpg
+      alt: Cover image for user SonOfLucifer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0201_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0201_profile.jpg
+      alt: Profile image for user SonOfLucifer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0202_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0202_cover.jpg
+      alt: Cover image for user SchwarzeMorgenFührer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0202_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0202_profile.jpg
+      alt: Profile image for user SchwarzeMorgenFührer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0210_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0210_profile.jpg
+      alt: Profile image for user Jose Churruca
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0213_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0213_profile.jpg
+      alt: Profile image for user Chaotic
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0216_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0216_cover.jpg
+      alt: Cover image for user R3KA
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0216_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0216_profile.jpg
+      alt: Profile image for user R3KA
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0217_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0217_profile.jpg
+      alt: Profile image for user VNTR-SS
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0221_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0221_cover.jpg
+      alt: Cover image for user Femto
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0221_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0221_profile.jpg
+      alt: Profile image for user Femto
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0224_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0224_profile.jpg
+      alt: Profile image for user Widukind
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0229_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0229_cover.jpg
+      alt: Cover image for user Scythian
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0229_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0229_profile.jpg
+      alt: Profile image for user Scythian
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0232_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0232_cover.jpg
+      alt: Cover image for user Pestilence
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0232_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0232_profile.jpg
+      alt: Profile image for user Pestilence
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0233_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0233_cover.jpg
+      alt: Cover image for user Yamnayan
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0233_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0233_profile.jpg
+      alt: Profile image for user Yamnayan
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0236_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0236_cover.jpg
+      alt: Cover image for user Bluebird
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0236_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0236_profile.jpg
+      alt: Profile image for user Bluebird
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0240_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0240_profile.jpg
+      alt: Profile image for user Hades
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0243_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0243_profile.jpg
+      alt: Profile image for user aspirant
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0244_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0244_cover.jpg
+      alt: Cover image for user Make Europe Blonde Again
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0247_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0247_cover.jpg
+      alt: Cover image for user NorjanTalvi
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0247_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0247_profile.jpg
+      alt: Profile image for user NorjanTalvi
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0248_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0248_cover.jpg
+      alt: Cover image for user Dharmic
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0250_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0250_cover.jpg
+      alt: Cover image for user Stratis
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0250_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0250_profile.jpg
+      alt: Profile image for user Stratis
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0251_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0251_cover.jpg
+      alt: Cover image for user NationalDivision88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0251_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0251_profile.jpg
+      alt: Profile image for user NationalDivision88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0252_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0252_cover.jpg
+      alt: Cover image for user Thulejugend
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0252_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0252_profile.jpg
+      alt: Profile image for user Thulejugend
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0255_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0255_profile.jpg
+      alt: Profile image for user Sombrero_Nazi
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0267_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0267_profile.jpg
+      alt: Profile image for user Senpai
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0269_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0269_cover.jpg
+      alt: Cover image for user Settlerism
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0269_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0269_profile.jpg
+      alt: Profile image for user Settlerism
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0271_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0271_cover.jpg
+      alt: Cover image for user Gladiator1488
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0271_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0271_profile.jpg
+      alt: Profile image for user Gladiator1488
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0272_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0272_profile.jpg
+      alt: Profile image for user Anonymous Autodidact
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0273_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0273_cover.jpg
+      alt: Cover image for user Khanate
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0273_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0273_profile.jpg
+      alt: Profile image for user Khanate
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0274_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0274_cover.jpg
+      alt: Cover image for user Germania
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0274_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0274_profile.jpg
+      alt: Profile image for user Germania
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0275_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0275_profile.jpg
+      alt: Profile image for user Misanthropic Knight
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0276_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0276_profile.jpg
+      alt: Profile image for user Votary
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0277_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0277_cover.jpg
+      alt: Cover image for user Feuerkrieg Division
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0277_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0277_profile.jpg
+      alt: Profile image for user Feuerkrieg Division
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0278_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0278_cover.jpg
+      alt: Cover image for user Mordecai
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0278_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0278_profile.jpg
+      alt: Profile image for user Mordecai
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0279_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0279_profile.jpg
+      alt: Profile image for user NIGNOG
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0280_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0280_profile.jpg
+      alt: Profile image for user Graf von Arco
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0282_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0282_profile.jpg
+      alt: Profile image for user Hermann Ehrhardt
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0285_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0285_profile.jpg
+      alt: Profile image for user General Wrangel
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0286_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0286_cover.jpg
+      alt: Cover image for user Pijjy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0286_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0286_profile.jpg
+      alt: Profile image for user Pijjy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0287_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0287_profile.jpg
+      alt: Profile image for user Vitamin_c
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0288_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0288_profile.jpg
+      alt: Profile image for user Fascist Cat
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0290_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0290_cover.jpg
+      alt: Cover image for user Dakov
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0290_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0290_profile.jpg
+      alt: Profile image for user Dakov
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0291_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0291_profile.jpg
+      alt: Profile image for user ANON333
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0293_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0293_profile.jpg
+      alt: Profile image for user Andronicus
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0295_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0295_profile.jpg
+      alt: Profile image for user BlahPerView
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0297_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0297_cover.jpg
+      alt: Cover image for user na_hAiseirghe
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0297_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0297_profile.jpg
+      alt: Profile image for user na_hAiseirghe
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0304_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0304_profile.jpg
+      alt: Profile image for user falldamage
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0307_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0307_cover.jpg
+      alt: Cover image for user Lôbo
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0308_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0308_cover.jpg
+      alt: Cover image for user ubermench
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0308_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0308_profile.jpg
+      alt: Profile image for user ubermench
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0310_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0310_profile.jpg
+      alt: Profile image for user Gadsden GreenPill
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0311_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0311_profile.jpg
+      alt: Profile image for user RevenantSKD
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0312_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0312_cover.jpg
+      alt: Cover image for user Bifrost
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0312_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0312_profile.jpg
+      alt: Profile image for user Bifrost
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0314_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0314_profile.jpg
+      alt: Profile image for user ᛆᚾᚡᛁᚾᚾ
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0315_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0315_cover.jpg
+      alt: Cover image for user LastDoberman
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0315_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0315_profile.jpg
+      alt: Profile image for user LastDoberman
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0316_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0316_profile.jpg
+      alt: Profile image for user Sol Invictus
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0317_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0317_cover.jpg
+      alt: Cover image for user Ailtire Ulaidh Nua
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0317_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0317_profile.jpg
+      alt: Profile image for user Ailtire Ulaidh Nua
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0321_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0321_profile.jpg
+      alt: Profile image for user Stribog
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0327_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0327_profile.jpg
+      alt: Profile image for user Time
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0328_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0328_cover.jpg
+      alt: Cover image for user Adalwulf
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0328_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0328_profile.jpg
+      alt: Profile image for user Adalwulf
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0330_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0330_cover.jpg
+      alt: Cover image for user FuckNatzis
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0330_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0330_profile.jpg
+      alt: Profile image for user FuckNatzis
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0332_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0332_profile.jpg
+      alt: Profile image for user Maniac Mark
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0333_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0333_cover.jpg
+      alt: Cover image for user Skeletonwitch
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0333_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0333_profile.jpg
+      alt: Profile image for user Skeletonwitch
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0335_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0335_profile.jpg
+      alt: Profile image for user Gaiaphage
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0336_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0336_profile.jpg
+      alt: Profile image for user Ragnarök
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0339_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0339_profile.jpg
+      alt: Profile image for user Alva Þórir
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0341_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0341_cover.jpg
+      alt: Cover image for user DDK
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0341_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0341_profile.jpg
+      alt: Profile image for user DDK
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0344_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0344_cover.jpg
+      alt: Cover image for user LVTH
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0344_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0344_profile.jpg
+      alt: Profile image for user LVTH
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0345_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0345_cover.jpg
+      alt: Cover image for user EksD
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0345_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0345_profile.jpg
+      alt: Profile image for user EksD
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0349_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0349_cover.jpg
+      alt: Cover image for user M441
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0349_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0349_profile.jpg
+      alt: Profile image for user M441
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0350_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0350_cover.jpg
+      alt: Cover image for user Wotan's Riech
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0350_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0350_profile.jpg
+      alt: Profile image for user Wotan's Riech
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0351_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0351_cover.jpg
+      alt: Cover image for user Aryan
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0351_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0351_profile.jpg
+      alt: Profile image for user Aryan
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0352_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0352_cover.jpg
+      alt: Cover image for user America_Awake!
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0352_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0352_profile.jpg
+      alt: Profile image for user America_Awake!
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0353_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0353_cover.jpg
+      alt: Cover image for user True Celtic
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0353_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0353_profile.jpg
+      alt: Profile image for user True Celtic
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0357_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0357_cover.jpg
+      alt: Cover image for user Jarman
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0357_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0357_profile.jpg
+      alt: Profile image for user Jarman
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0358_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0358_profile.jpg
+      alt: Profile image for user Cutsbloodforourlordsatan
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0359_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0359_cover.jpg
+      alt: Cover image for user autismus88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0359_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0359_profile.jpg
+      alt: Profile image for user autismus88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0360_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0360_cover.jpg
+      alt: Cover image for user Himmelsk Stjärna
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0360_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0360_profile.jpg
+      alt: Profile image for user Himmelsk Stjärna
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0361_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0361_profile.jpg
+      alt: Profile image for user Costaud
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0362_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0362_profile.jpg
+      alt: Profile image for user AurvandilDC
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0364_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0364_cover.jpg
+      alt: Cover image for user Ghost
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0364_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0364_profile.jpg
+      alt: Profile image for user Ghost
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0365_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0365_cover.jpg
+      alt: Cover image for user Legion
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0365_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0365_profile.jpg
+      alt: Profile image for user Legion
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0366_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0366_cover.jpg
+      alt: Cover image for user Praedator
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0366_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0366_profile.jpg
+      alt: Profile image for user Praedator
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0367_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0367_cover.jpg
+      alt: Cover image for user Reaper
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0368_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0368_profile.jpg
+      alt: Profile image for user Shane Young
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0369_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0369_cover.jpg
+      alt: Cover image for user TotalAids
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0369_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0369_profile.jpg
+      alt: Profile image for user TotalAids
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0371_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0371_cover.jpg
+      alt: Cover image for user Epj
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0371_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0371_profile.jpg
+      alt: Profile image for user Epj
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0373_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0373_profile.jpg
+      alt: Profile image for user Naturgewalt
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0379_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0379_cover.jpg
+      alt: Cover image for user Chad_Bagwell
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0379_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0379_profile.jpg
+      alt: Profile image for user Chad_Bagwell
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0385_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0385_cover.jpg
+      alt: Cover image for user Rkto
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0385_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0385_profile.jpg
+      alt: Profile image for user Rkto
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0387_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0387_profile.jpg
+      alt: Profile image for user Negromancer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0391_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0391_profile.jpg
+      alt: Profile image for user Noz
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0399_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0399_profile.jpg
+      alt: Profile image for user EsotericVit
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0401_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0401_cover.jpg
+      alt: Cover image for user SaintMengele
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0401_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0401_profile.jpg
+      alt: Profile image for user SaintMengele
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0402_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0402_profile.jpg
+      alt: Profile image for user Superion
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0406_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0406_cover.jpg
+      alt: Cover image for user TMB
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0406_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0406_profile.jpg
+      alt: Profile image for user TMB
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0409_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0409_cover.jpg
+      alt: Cover image for user RockyInsurgent
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0409_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0409_profile.jpg
+      alt: Profile image for user RockyInsurgent
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0410_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0410_cover.jpg
+      alt: Cover image for user D. Aquillius
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0410_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0410_profile.jpg
+      alt: Profile image for user D. Aquillius
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0414_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0414_cover.jpg
+      alt: Cover image for user Gn Dostoevsky
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0416_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0416_profile.jpg
+      alt: Profile image for user UkranianOrthodoxFascist
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0418_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0418_profile.jpg
+      alt: Profile image for user DeathCultSoma
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0419_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0419_cover.jpg
+      alt: Cover image for user Merisiege
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0423_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0423_cover.jpg
+      alt: Cover image for user Deranged
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0423_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0423_profile.jpg
+      alt: Profile image for user Deranged
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0424_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0424_profile.jpg
+      alt: Profile image for user luger
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0430_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0430_profile.jpg
+      alt: Profile image for user Phionfire
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0434_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0434_cover.jpg
+      alt: Cover image for user Sans
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0434_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0434_profile.jpg
+      alt: Profile image for user Sans
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0435_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0435_profile.jpg
+      alt: Profile image for user Wolfshrike
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0436_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0436_cover.jpg
+      alt: Cover image for user w4w88ch
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0436_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0436_profile.jpg
+      alt: Profile image for user w4w88ch
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0437_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0437_profile.jpg
+      alt: Profile image for user Laertes
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0440_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0440_cover.jpg
+      alt: Cover image for user vvmWitch
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0440_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0440_profile.jpg
+      alt: Profile image for user vvmWitch
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0442_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0442_profile.jpg
+      alt: Profile image for user Sk8_with_h8
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0446_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0446_cover.jpg
+      alt: Cover image for user Endspiel
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0446_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0446_profile.jpg
+      alt: Profile image for user Endspiel
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0450_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0450_cover.jpg
+      alt: Cover image for user SCARECROW
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0454_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0454_cover.jpg
+      alt: Cover image for user Aufstand
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0454_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0454_profile.jpg
+      alt: Profile image for user Aufstand
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0456_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0456_cover.jpg
+      alt: Cover image for user Big Jim
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0456_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0456_profile.jpg
+      alt: Profile image for user Big Jim
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0461_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0461_cover.jpg
+      alt: Cover image for user ichundmeineak
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0461_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0461_profile.jpg
+      alt: Profile image for user ichundmeineak
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0463_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0463_profile.jpg
+      alt: Profile image for user Gutter
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0467_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0467_profile.jpg
+      alt: Profile image for user barbarian
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0470_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0470_cover.jpg
+      alt: Cover image for user Nathanael
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0470_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0470_profile.jpg
+      alt: Profile image for user Nathanael
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0472_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0472_cover.jpg
+      alt: Cover image for user Dixie
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0472_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0472_profile.jpg
+      alt: Profile image for user Dixie
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0473_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0473_cover.jpg
+      alt: Cover image for user FlorianWaffen
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0473_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0473_profile.jpg
+      alt: Profile image for user FlorianWaffen
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0474_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0474_cover.jpg
+      alt: Cover image for user R1Feral
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0477_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0477_profile.jpg
+      alt: Profile image for user Ushammothatl
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0481_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0481_profile.jpg
+      alt: Profile image for user TheRiteofUnion
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0484_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0484_cover.jpg
+      alt: Cover image for user Lucifer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0484_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0484_profile.jpg
+      alt: Profile image for user Lucifer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0485_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0485_cover.jpg
+      alt: Cover image for user NukesForWaffen
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0485_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0485_profile.jpg
+      alt: Profile image for user NukesForWaffen
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0489_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0489_profile.jpg
+      alt: Profile image for user Louen
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0491_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0491_profile.jpg
+      alt: Profile image for user John_von_Doe
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0494_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0494_cover.jpg
+      alt: Cover image for user Famine
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0494_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0494_profile.jpg
+      alt: Profile image for user Famine
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0495_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0495_cover.jpg
+      alt: Cover image for user baronkriegreich
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0495_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0495_profile.jpg
+      alt: Profile image for user baronkriegreich
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0497_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0497_cover.jpg
+      alt: Cover image for user Newmindset
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0497_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0497_profile.jpg
+      alt: Profile image for user Newmindset
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0498_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0498_profile.jpg
+      alt: Profile image for user 999
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0505_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0505_profile.jpg
+      alt: Profile image for user Undeterred
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0510_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0510_cover.jpg
+      alt: Cover image for user joegambler
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0512_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0512_cover.jpg
+      alt: Cover image for user Ƿuffing
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0512_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0512_profile.jpg
+      alt: Profile image for user Ƿuffing
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0513_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0513_profile.jpg
+      alt: Profile image for user 22r2
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0515_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0515_profile.jpg
+      alt: Profile image for user TeutonicLoyalist
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0521_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0521_cover.jpg
+      alt: Cover image for user Corvus
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0521_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0521_profile.jpg
+      alt: Profile image for user Corvus
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0524_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0524_profile.jpg
+      alt: Profile image for user Maximilian
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0526_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0526_cover.jpg
+      alt: Cover image for user Zoltanous
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0526_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0526_profile.jpg
+      alt: Profile image for user Zoltanous
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0531_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0531_cover.jpg
+      alt: Cover image for user Slaughter
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0531_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0531_profile.jpg
+      alt: Profile image for user Slaughter
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0540_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0540_cover.jpg
+      alt: Cover image for user Herr Wolf
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0540_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0540_profile.jpg
+      alt: Profile image for user Herr Wolf
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0541_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0541_cover.jpg
+      alt: Cover image for user ϟϟMattϟϟ
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0541_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0541_profile.jpg
+      alt: Profile image for user ϟϟMattϟϟ
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0542_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0542_profile.jpg
+      alt: Profile image for user Here's Huey
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0543_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0543_cover.jpg
+      alt: Cover image for user DJ_AXLE
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0543_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0543_profile.jpg
+      alt: Profile image for user DJ_AXLE
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0549_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0549_profile.jpg
+      alt: Profile image for user pichushkin
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0550_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0550_cover.jpg
+      alt: Cover image for user Kerry
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0550_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0550_profile.jpg
+      alt: Profile image for user Kerry
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0556_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0556_cover.jpg
+      alt: Cover image for user MEBOZ
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0556_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0556_profile.jpg
+      alt: Profile image for user MEBOZ
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0561_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0561_cover.jpg
+      alt: Cover image for user The Fanatical Guerilla
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0561_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0561_profile.jpg
+      alt: Profile image for user The Fanatical Guerilla
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0564_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0564_cover.jpg
+      alt: Cover image for user C-Alunya
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0569_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0569_cover.jpg
+      alt: Cover image for user The Kommandant
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0570_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0570_profile.jpg
+      alt: Profile image for user Wombat 18 Terrormachine
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0572_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0572_profile.jpg
+      alt: Profile image for user Caezar55
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0573_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0573_profile.jpg
+      alt: Profile image for user Satan
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0574_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0574_profile.jpg
+      alt: Profile image for user 6Sun6God6
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0575_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0575_profile.jpg
+      alt: Profile image for user O9A Extremist
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0578_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0578_profile.jpg
+      alt: Profile image for user 666CHRISTKILLER333
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0581_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0581_profile.jpg
+      alt: Profile image for user CNN Journalist
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0582_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0582_profile.jpg
+      alt: Profile image for user VICE NEWS JOURNALIST
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0583_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0583_profile.jpg
+      alt: Profile image for user BuzzFeed News Journalist
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0584_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0584_profile.jpg
+      alt: Profile image for user The YoungTurks
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0588_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0588_cover.jpg
+      alt: Cover image for user farrah88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0588_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0588_profile.jpg
+      alt: Profile image for user farrah88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0591_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0591_profile.jpg
+      alt: Profile image for user BELEGERING
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0593_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0593_profile.jpg
+      alt: Profile image for user Silverback
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0596_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0596_cover.jpg
+      alt: Cover image for user RogalDorn7
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0596_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0596_profile.jpg
+      alt: Profile image for user RogalDorn7
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0598_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0598_cover.jpg
+      alt: Cover image for user Anti_semite_arab007
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0598_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0598_profile.jpg
+      alt: Profile image for user Anti_semite_arab007
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0602_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0602_cover.jpg
+      alt: Cover image for user Teutowolf
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0602_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0602_profile.jpg
+      alt: Profile image for user Teutowolf
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0604_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0604_cover.jpg
+      alt: Cover image for user Celeritas
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0604_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0604_profile.jpg
+      alt: Profile image for user Celeritas
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0605_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0605_profile.jpg
+      alt: Profile image for user Sceptre
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0607_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0607_cover.jpg
+      alt: Cover image for user judeobeast.assassin
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0607_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0607_profile.jpg
+      alt: Profile image for user judeobeast.assassin
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0608_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0608_cover.jpg
+      alt: Cover image for user Kaggath
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0608_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0608_profile.jpg
+      alt: Profile image for user Kaggath
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0611_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0611_cover.jpg
+      alt: Cover image for user Ted
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0625_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0625_cover.jpg
+      alt: Cover image for user Armageddon
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0625_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0625_profile.jpg
+      alt: Profile image for user Armageddon
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0627_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0627_cover.jpg
+      alt: Cover image for user Mickey
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0628_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0628_cover.jpg
+      alt: Cover image for user VirtualVUE
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0628_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0628_profile.jpg
+      alt: Profile image for user VirtualVUE
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0636_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0636_profile.jpg
+      alt: Profile image for user VanillaGorilla
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0638_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0638_cover.jpg
+      alt: Cover image for user Fenaudhrreidhyr
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0638_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0638_profile.jpg
+      alt: Profile image for user Fenaudhrreidhyr
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0640_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0640_cover.jpg
+      alt: Cover image for user Scruffy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0640_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0640_profile.jpg
+      alt: Profile image for user Scruffy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0643_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0643_cover.jpg
+      alt: Cover image for user Ka7
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0643_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0643_profile.jpg
+      alt: Profile image for user Ka7
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0644_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0644_profile.jpg
+      alt: Profile image for user Terror The Threat
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0647_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0647_cover.jpg
+      alt: Cover image for user GrainDeath
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0647_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0647_profile.jpg
+      alt: Profile image for user GrainDeath
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0652_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0652_cover.jpg
+      alt: Cover image for user Otto1488
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0654_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0654_cover.jpg
+      alt: Cover image for user narcist
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0654_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0654_profile.jpg
+      alt: Profile image for user narcist
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0661_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0661_cover.jpg
+      alt: Cover image for user SixMillionLies
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0661_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0661_profile.jpg
+      alt: Profile image for user SixMillionLies
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0662_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0662_cover.jpg
+      alt: Cover image for user HarryHarvick
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0662_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0662_profile.jpg
+      alt: Profile image for user HarryHarvick
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0671_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0671_profile.jpg
+      alt: Profile image for user Shark
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0673_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0673_cover.jpg
+      alt: Cover image for user Samiel
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0673_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0673_profile.jpg
+      alt: Profile image for user Samiel
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0675_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0675_profile.jpg
+      alt: Profile image for user Judenjager88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0677_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0677_profile.jpg
+      alt: Profile image for user Attila Andrássy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0681_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0681_profile.jpg
+      alt: Profile image for user Orthocarbonic_Acid
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0682_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0682_cover.jpg
+      alt: Cover image for user N Shultz
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0682_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0682_profile.jpg
+      alt: Profile image for user N Shultz
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0687_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0687_profile.jpg
+      alt: Profile image for user Nyarlathotep88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0688_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0688_profile.jpg
+      alt: Profile image for user Tyrant
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0696_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0696_profile.jpg
+      alt: Profile image for user EMSIX
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0697_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0697_profile.jpg
+      alt: Profile image for user bruh gamer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0699_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0699_profile.jpg
+      alt: Profile image for user Gust
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0707_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0707_profile.jpg
+      alt: Profile image for user viramarga
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0710_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0710_cover.jpg
+      alt: Cover image for user CristianIronYouth
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0710_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0710_profile.jpg
+      alt: Profile image for user CristianIronYouth
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0712_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0712_cover.jpg
+      alt: Cover image for user FTS
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0712_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0712_profile.jpg
+      alt: Profile image for user FTS
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0715_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0715_profile.jpg
+      alt: Profile image for user jakin12
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0717_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0717_cover.jpg
+      alt: Cover image for user Teazer247
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0717_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0717_profile.jpg
+      alt: Profile image for user Teazer247
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0720_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0720_profile.jpg
+      alt: Profile image for user Gomorrah
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0721_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0721_profile.jpg
+      alt: Profile image for user Cultured Thug
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0722_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0722_cover.jpg
+      alt: Cover image for user Wherwolf
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0722_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0722_profile.jpg
+      alt: Profile image for user Wherwolf
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0726_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0726_cover.jpg
+      alt: Cover image for user achtungfolk
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0726_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0726_profile.jpg
+      alt: Profile image for user achtungfolk
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0727_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0727_profile.jpg
+      alt: Profile image for user philosph3rking
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0731_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0731_profile.jpg
+      alt: Profile image for user Supreme1
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0734_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0734_profile.jpg
+      alt: Profile image for user Gloomer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0736_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0736_profile.jpg
+      alt: Profile image for user Lux
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0737_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0737_cover.jpg
+      alt: Cover image for user whippingbastard
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0738_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0738_profile.jpg
+      alt: Profile image for user kiwlo
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0739_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0739_profile.jpg
+      alt: Profile image for user Franz
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0750_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0750_cover.jpg
+      alt: Cover image for user The_Fashy_Goy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0750_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0750_profile.jpg
+      alt: Profile image for user The_Fashy_Goy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0751_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0751_profile.jpg
+      alt: Profile image for user albanatsoc
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0755_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0755_profile.jpg
+      alt: Profile image for user John Siege
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0758_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0758_profile.jpg
+      alt: Profile image for user Antagonist
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0761_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0761_cover.jpg
+      alt: Cover image for user Steel Conduct
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0763_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0763_cover.jpg
+      alt: Cover image for user Cоrvus
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0763_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0763_profile.jpg
+      alt: Profile image for user Cоrvus
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0767_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0767_profile.jpg
+      alt: Profile image for user lions
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0771_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0771_profile.jpg
+      alt: Profile image for user Freedom Fighter 88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0773_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0773_cover.jpg
+      alt: Cover image for user Jans3n14
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0774_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0774_profile.jpg
+      alt: Profile image for user HeathenHammer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0776_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0776_profile.jpg
+      alt: Profile image for user 14KKKiller88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0780_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0780_cover.jpg
+      alt: Cover image for user Kaijer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0780_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0780_profile.jpg
+      alt: Profile image for user Kaijer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0784_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0784_profile.jpg
+      alt: Profile image for user Pussyslayer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0785_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0785_cover.jpg
+      alt: Cover image for user Xebin
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0785_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0785_profile.jpg
+      alt: Profile image for user Xebin
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0787_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0787_cover.jpg
+      alt: Cover image for user Blackhall
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0787_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0787_profile.jpg
+      alt: Profile image for user Blackhall
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0791_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0791_cover.jpg
+      alt: Cover image for user Teck
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0791_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0791_profile.jpg
+      alt: Profile image for user Teck
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0793_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0793_profile.jpg
+      alt: Profile image for user AmericanishSS
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0794_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0794_profile.jpg
+      alt: Profile image for user Wrath
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0798_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0798_profile.jpg
+      alt: Profile image for user Archives_333
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0800_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0800_profile.jpg
+      alt: Profile image for user Thule88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0802_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0802_profile.jpg
+      alt: Profile image for user Epylypsy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0805_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0805_profile.jpg
+      alt: Profile image for user RustyRose
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0806_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0806_cover.jpg
+      alt: Cover image for user Shaun Yeager
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0806_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0806_profile.jpg
+      alt: Profile image for user Shaun Yeager
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0808_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0808_cover.jpg
+      alt: Cover image for user Fallout Shelter 7
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0808_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0808_profile.jpg
+      alt: Profile image for user Fallout Shelter 7
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0814_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0814_cover.jpg
+      alt: Cover image for user Strangled
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0814_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0814_profile.jpg
+      alt: Profile image for user Strangled
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0815_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0815_cover.jpg
+      alt: Cover image for user Aryan Graphics Designs
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0815_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0815_profile.jpg
+      alt: Profile image for user Aryan Graphics Designs
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0817_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0817_profile.jpg
+      alt: Profile image for user Wells
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0818_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0818_cover.jpg
+      alt: Cover image for user WoodenShoe
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0818_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0818_profile.jpg
+      alt: Profile image for user WoodenShoe
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0820_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0820_cover.jpg
+      alt: Cover image for user ϟϟTotenkopfϟϟ
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0821_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0821_profile.jpg
+      alt: Profile image for user Baldr
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0823_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0823_cover.jpg
+      alt: Cover image for user Vidar
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0823_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0823_profile.jpg
+      alt: Profile image for user Vidar
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0826_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0826_cover.jpg
+      alt: Cover image for user Khan
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0826_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0826_profile.jpg
+      alt: Profile image for user Khan
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0828_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0828_profile.jpg
+      alt: Profile image for user DJ NiggerDeath
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0833_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0833_cover.jpg
+      alt: Cover image for user Aristokratismo
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0833_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0833_profile.jpg
+      alt: Profile image for user Aristokratismo
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0837_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0837_profile.jpg
+      alt: Profile image for user Regulus
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0843_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0843_cover.jpg
+      alt: Cover image for user Napalm
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0843_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0843_profile.jpg
+      alt: Profile image for user Napalm
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0846_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0846_cover.jpg
+      alt: Cover image for user Gungnir
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0846_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0846_profile.jpg
+      alt: Profile image for user Gungnir
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0848_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0848_cover.jpg
+      alt: Cover image for user Kuumees
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0848_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0848_profile.jpg
+      alt: Profile image for user Kuumees
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0849_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0849_profile.jpg
+      alt: Profile image for user Celldweller
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0852_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0852_profile.jpg
+      alt: Profile image for user AllPraiseTheSoterShah
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0853_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0853_profile.jpg
+      alt: Profile image for user Aristorien
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0856_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0856_cover.jpg
+      alt: Cover image for user H A N Z
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0856_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0856_profile.jpg
+      alt: Profile image for user H A N Z
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0858_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0858_cover.jpg
+      alt: Cover image for user Kasserine
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0858_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0858_profile.jpg
+      alt: Profile image for user Kasserine
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0859_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0859_profile.jpg
+      alt: Profile image for user Nick88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0861_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0861_profile.jpg
+      alt: Profile image for user saule
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0862_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0862_profile.jpg
+      alt: Profile image for user pira
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0863_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0863_cover.jpg
+      alt: Cover image for user fkingbitch1871
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0863_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0863_profile.jpg
+      alt: Profile image for user fkingbitch1871
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0864_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0864_profile.jpg
+      alt: Profile image for user Riding-The-Tiger
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0865_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0865_cover.jpg
+      alt: Cover image for user Luther & Anker
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0865_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0865_profile.jpg
+      alt: Profile image for user Luther & Anker
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0868_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0868_profile.jpg
+      alt: Profile image for user 1488
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0869_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0869_cover.jpg
+      alt: Cover image for user Rick
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0869_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0869_profile.jpg
+      alt: Profile image for user Rick
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0872_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0872_profile.jpg
+      alt: Profile image for user The Black Sun
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0874_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0874_profile.jpg
+      alt: Profile image for user chojjii
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0878_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0878_profile.jpg
+      alt: Profile image for user Fractal
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0885_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0885_cover.jpg
+      alt: Cover image for user rudy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0885_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0885_profile.jpg
+      alt: Profile image for user rudy
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0886_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0886_profile.jpg
+      alt: Profile image for user MoonBandit
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0896_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0896_cover.jpg
+      alt: Cover image for user Πυρσός
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0896_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0896_profile.jpg
+      alt: Profile image for user Πυρσός
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0899_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0899_cover.jpg
+      alt: Cover image for user spictomwaffen
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0899_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0899_profile.jpg
+      alt: Profile image for user spictomwaffen
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0902_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0902_profile.jpg
+      alt: Profile image for user ZyklonB
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0910_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0910_cover.jpg
+      alt: Cover image for user Bauruk
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0910_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0910_profile.jpg
+      alt: Profile image for user Bauruk
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0911_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0911_cover.jpg
+      alt: Cover image for user Joshua Frejatru
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0911_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0911_profile.jpg
+      alt: Profile image for user Joshua Frejatru
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0914_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0914_profile.jpg
+      alt: Profile image for user Imperator
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0915_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0915_cover.jpg
+      alt: Cover image for user GTK88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0915_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0915_profile.jpg
+      alt: Profile image for user GTK88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0916_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0916_profile.jpg
+      alt: Profile image for user Wolkopf
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0917_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0917_cover.jpg
+      alt: Cover image for user The Imperial Cache
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0917_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0917_profile.jpg
+      alt: Profile image for user The Imperial Cache
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0922_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0922_cover.jpg
+      alt: Cover image for user BlackSun_666
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0923_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0923_cover.jpg
+      alt: Cover image for user Tptr333
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0923_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0923_profile.jpg
+      alt: Profile image for user Tptr333
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0925_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0925_profile.jpg
+      alt: Profile image for user CaptainFascist
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0926_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0926_cover.jpg
+      alt: Cover image for user whiteout88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0926_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0926_profile.jpg
+      alt: Profile image for user whiteout88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0927_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0927_profile.jpg
+      alt: Profile image for user ThulensOrd
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0928_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0928_cover.jpg
+      alt: Cover image for user Crabelli Bushta-Bullion
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0928_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0928_profile.jpg
+      alt: Profile image for user Crabelli Bushta-Bullion
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0929_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0929_profile.jpg
+      alt: Profile image for user AryanWolf
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0930_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0930_cover.jpg
+      alt: Cover image for user Ahnenerbe
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0930_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0930_profile.jpg
+      alt: Profile image for user Ahnenerbe
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0934_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0934_profile.jpg
+      alt: Profile image for user Lukov1887
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0936_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0936_cover.jpg
+      alt: Cover image for user Earl_Turner
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0936_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0936_profile.jpg
+      alt: Profile image for user Earl_Turner
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0937_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0937_profile.jpg
+      alt: Profile image for user Australian Klansman
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0939_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0939_cover.jpg
+      alt: Cover image for user yanisson
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0939_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0939_profile.jpg
+      alt: Profile image for user yanisson
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0947_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0947_cover.jpg
+      alt: Cover image for user Wolfskampf
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0947_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0947_profile.jpg
+      alt: Profile image for user Wolfskampf
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0950_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0950_profile.jpg
+      alt: Profile image for user Isak
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0951_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0951_cover.jpg
+      alt: Cover image for user Foggman
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0951_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0951_profile.jpg
+      alt: Profile image for user Foggman
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0952_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0952_cover.jpg
+      alt: Cover image for user BASEDEVON
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0952_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0952_profile.jpg
+      alt: Profile image for user BASEDEVON
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0954_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0954_cover.jpg
+      alt: Cover image for user Bulgarian Revival
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0954_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0954_profile.jpg
+      alt: Profile image for user Bulgarian Revival
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0956_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0956_profile.jpg
+      alt: Profile image for user Bloomfield
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0959_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0959_cover.jpg
+      alt: Cover image for user British.Sun
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0960_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0960_profile.jpg
+      alt: Profile image for user Klaus
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0962_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0962_profile.jpg
+      alt: Profile image for user Acrea
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0967_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0967_cover.jpg
+      alt: Cover image for user Ralph
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0969_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0969_profile.jpg
+      alt: Profile image for user Kastri
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0971_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0971_cover.jpg
+      alt: Cover image for user SKRAAL
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0971_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0971_profile.jpg
+      alt: Profile image for user SKRAAL
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0974_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0974_cover.jpg
+      alt: Cover image for user Kebab Entfernen
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0974_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0974_profile.jpg
+      alt: Profile image for user Kebab Entfernen
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0978_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0978_cover.jpg
+      alt: Cover image for user ᛉ Europa ᛣ
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0978_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0978_profile.jpg
+      alt: Profile image for user ᛉ Europa ᛣ
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0979_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0979_profile.jpg
+      alt: Profile image for user Subterranean
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0989_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0989_profile.jpg
+      alt: Profile image for user Lab0rP0wer
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0991_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0991_cover.jpg
+      alt: Cover image for user lemon
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0991_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0991_profile.jpg
+      alt: Profile image for user lemon
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0995_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0995_cover.jpg
+      alt: Cover image for user NBK-1488
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0995_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0995_profile.jpg
+      alt: Profile image for user NBK-1488
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0998_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0998_profile.jpg
+      alt: Profile image for user AtomKraft
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0999_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0999_cover.jpg
+      alt: Cover image for user Xenomorph
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/0999_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/0999_profile.jpg
+      alt: Profile image for user Xenomorph
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1000_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1000_profile.jpg
+      alt: Profile image for user Tradegia
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1002_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1002_cover.jpg
+      alt: Cover image for user Lorenzhackenholt
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1002_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1002_profile.jpg
+      alt: Profile image for user Lorenzhackenholt
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1009_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1009_profile.jpg
+      alt: Profile image for user Bowlpatrol88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1012_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1012_cover.jpg
+      alt: Cover image for user Jack Calcott
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1012_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1012_profile.jpg
+      alt: Profile image for user Jack Calcott
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1013_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1013_cover.jpg
+      alt: Cover image for user kikefaghaterny
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1018_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1018_cover.jpg
+      alt: Cover image for user Bigchicken
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1021_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1021_profile.jpg
+      alt: Profile image for user Silberreich
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1022_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1022_profile.jpg
+      alt: Profile image for user John Q public
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1023_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1023_profile.jpg
+      alt: Profile image for user vailiant
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1028_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1028_cover.jpg
+      alt: Cover image for user Desertfox421
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1028_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1028_profile.jpg
+      alt: Profile image for user Desertfox421
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1029_cover.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1029_cover.jpg
+      alt: Cover image for user Malatesta88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1029_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1029_profile.jpg
+      alt: Profile image for user Malatesta88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1030_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1030_profile.jpg
+      alt: Profile image for user Руслан уарслут
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1032_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1032_profile.jpg
+      alt: Profile image for user john q fuglic
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1052_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1052_profile.jpg
+      alt: Profile image for user Tosha
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1065_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1065_profile.jpg
+      alt: Profile image for user j.mxyxr
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1073_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1073_profile.jpg
+      alt: Profile image for user john q muglic
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1074_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1074_profile.jpg
+      alt: Profile image for user john q fuglick
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1075_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1075_profile.jpg
+      alt: Profile image for user Tyrone
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1076_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1076_profile.jpg
+      alt: Profile image for user Mohhamad
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1077_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1077_profile.jpg
+      alt: Profile image for user FBI Agent Miller
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1082_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1082_profile.jpg
+      alt: Profile image for user Volka21
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1084_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1084_profile.jpg
+      alt: Profile image for user Xavier
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1088_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1088_profile.jpg
+      alt: Profile image for user catrez
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1089_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1089_profile.jpg
+      alt: Profile image for user TerrorWind88
+    - src: /assets/img/posts/2019-09-02-fascist-forge/gallery/1090_profile.jpg
+      href: /assets/img/posts/2019-09-02-fascist-forge/gallery/1090_profile.jpg
+      alt: Profile image for user Uber
+
+  settings:
+    height: "400"
+    effect: "'slide'"

@@ -1,0 +1,42 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container navbar-container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            <a class="navbar-brand" href="{{ site.baseurl }}/">
+                <span><img src="{{site.baseurl}}/assets/img/logonav.png" alt="Logo"></span> {{ site.title }}
+            </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ "/" | prepend: site.baseurl }}">Blog</a></li>
+                <li {% if page.sectionid=='tags' %} class="active" {% endif %}><a href="{{ "/tags/" | prepend: site.baseurl }}">Tags</a></li>
+                <li {% if page.sectionid=='about' %} class="active" {% endif %}><a href="{{ "/about/" | prepend: site.baseurl }}">About</a></li>
+            </ul>
+            <div class="navbar-right">
+			
+	  
+	<div class="search-box">
+		  <div class="wrapper1">
+			<div class="search-grid">
+				 <form class="navbar-form ">
+                    <div class="form-group" id="search-container">
+                        <input id="search-input" type="search" class="form-control search" placeholder="Search..." autocomplete="off">
+                        <i class="fa fa-search form-control-feedback"></i>
+                    </div>
+                </form>
+			  <ul id="results-container" class="results-search"></ul>
+			 
+			</div>
+		  </div>
+	</div>
+	
+
+            </div>
+        </div>
+    </div>
+</nav>

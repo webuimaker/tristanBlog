@@ -1,0 +1,63 @@
+title: Tristan Lee
+email: trislee@protonmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://trislee.com'
+git_address: https://github.com/trislee
+
+# Author settings
+author: Tristan Lee # add your name
+author-pic: tristan_face.png
+about-author: My name is Tristan Lee, I'm a computational physicist who's into data science. This is my blog that I use to share physics simulations and data analyses, with a focus towards making interesting and beautiful visualizations.
+
+# Contact links
+email: trislee@protonmail.com
+phone: # Add your Phone number
+website: www.trislee.com
+linkedin: tristan-e-lee
+github: trislee # Add your Github handle
+twitter:  # Add your Twitter handle
+facebook: # Add your Facebook handle
+instagram: # Add your Instagram handle
+pinterest: # Add your Pinterest handle
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: # Add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 16
+paginate_path: /page:num/
+
+# theme options from https://bootswatch.com/
+# comment out this to use default Bootstrap
+bootwatch: paper
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
+
+# Code block syntax highlighting
+highlighter: rouge
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+# header_pages:
+# - _pages/about.html
+# - _pages/tags.html

@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+      google.charts.load('current', {'packages':['sankey']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'From');
+        data.addColumn('string', 'To');
+        data.addColumn('number', 'Weight');
+        data.addRows([
+          ['All', 'Astrophysics', 174691],
+          ['All', 'Computer Science', 116775],
+          ['All', 'Condensed Matter', 310451],
+          ['All', 'High Energy Physics', 337071],
+          ['All', 'Mathematics', 327680],
+          ['All', 'Physics', 26581],
+          ['Mathematics', 'Algebraic Geometry', 37436],
+          ['Mathematics', 'Analysis of PDEs', 36977],
+          ['Computer Science', 'Artificial Intelligence', 19808],
+          ['Astrophysics', 'Astrophysics of Galaxies', 36915],
+          ['Mathematics', 'Combinatorics', 40994],
+          ['Computer Science', 'Computer Vision and Pattern Recognition', 30184],
+          ['Astrophysics', 'Cosmology and Nongalactic Astrophysics', 47947],
+          ['Mathematics', 'Differential Geometry', 29914],
+          ['Condensed Matter', 'Disordered Systems and Neural Networks', 17503],
+          ['Mathematics', 'Dynamical Systems', 22748],
+          ['Astrophysics', 'Earth and Planetary Astrophysics', 16305],
+          ['High Energy Physics', 'Experiment', 39261],
+          ['Mathematics', 'Functional Analysis', 20383],
+          ['Mathematics', 'Geometric Topology', 16223],
+          ['Astrophysics', 'High Energy Astrophysical Phenomena', 34331],
+          ['Computer Science', 'Information Theory', 29070],
+          ['High Energy Physics', 'Lattice', 22563],
+          ['Computer Science', 'Machine Learning', 37713],
+          ['Condensed Matter', 'Materials Science', 59052],
+          ['Condensed Matter', 'Mesoscale and Nanoscale Physics', 63288],
+          ['Mathematics', 'Number Theory', 26824],
+          ['Mathematics', 'Numerical Analysis', 19812],
+          ['Physics', 'Optics', 26581],
+          ['Mathematics', 'Optimization and Control', 21925],
+          ['High Energy Physics', 'Phenomenology', 144229],
+          ['Mathematics', 'Probability', 36509],
+          ['Mathematics', 'Representation Theory', 17935],
+          ['Condensed Matter', 'Soft Condensed Matter', 28008],
+          ['Astrophysics', 'Solar and Stellar Astrophysics', 39193],
+          ['Condensed Matter', 'Statistical Mechanics', 55547],
+          ['Condensed Matter', 'Strongly Correlated Electrons', 53115],
+          ['Condensed Matter', 'Superconductivity', 33938],
+          ['High Energy Physics', 'Theory', 131018]
+        ]);
+
+    var colors = ['0072bd','d95319','edb120','7e2f8e','77ac30','4dbeee','a2142f'];
+
+    var options = {
+      height: 400,
+      width: 800,
+      sankey: {
+        node: {
+          colors: colors
+        },
+        link: {
+          colorMode: 'source',
+          colors: colors
+        }
+      }
+    };
+
+        // Instantiates and draws our chart, passing in some options.
+        var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div id="sankey_basic"></div>
+  </body>
+</html>
