@@ -112,8 +112,9 @@ renderer.save(hv_graph, 'graph')
 I've colored the nodes by the log of their degree (number of likes given + number of likes received) using the default viridis colormap.
 The resulting visualization is shown below:
 
+<div class="maxmobwidth">
 {% include interactive/ff_like_graph.html  %}
-
+</div>
 So that's pretty cool, but there are a lot of edges, which makes it difficult to see the graph's structure, especially in the middle region where the nodes are close together.
 Luckily, HoloViews has an edge bundling feature.
 For more information about edge bundling, see [these][data-to-viz] [resources][vega].
@@ -129,8 +130,9 @@ bundled = bundle_graph(hv_graph)
 {% endhighlight %}
 The resulting visualization is shown below. I think it looks a lot better, both aesthetically and informationally:
 
+<div class="maxmobwidth">
 {% include interactive/ff_like_graph_bundled.html  %}
-
+</div>
 
 The graph shows that there is a relatively small group of users who are responsible for a large percentage of all reactions.
 The table below shows the top 10 users:
