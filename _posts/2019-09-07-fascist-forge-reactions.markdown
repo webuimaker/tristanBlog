@@ -130,7 +130,7 @@ bundled = bundle_graph(hv_graph)
 {% endhighlight %}
 The resulting visualization is shown below. I think it looks a lot better, both aesthetically and informationally:
 
-<div class="maxmobwidth">
+<div class="include-out">
 {% include interactive/ff_like_graph_bundled.html  %}
 </div>
 
