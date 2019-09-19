@@ -112,7 +112,7 @@ renderer.save(hv_graph, 'graph')
 I've colored the nodes by the log of their degree (number of likes given + number of likes received) using the default viridis colormap.
 The resulting visualization is shown below:
 
-<div class="maxmobwidth">
+<div class="include-out">
 {% include interactive/ff_like_graph.html  %}
 </div>
 So that's pretty cool, but there are a lot of edges, which makes it difficult to see the graph's structure, especially in the middle region where the nodes are close together.

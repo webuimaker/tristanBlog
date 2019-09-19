@@ -1517,6 +1517,10 @@ pre code {
   .maxmobwidth div div div svg{width:100% !important; max-width:100%; overflow:visible}
   .maxmobwidth div div div .bk.bk-canvas{width:100% !important; max-width:100%; overflow:visible}
   */
+  
+  .bk-root.chart canvas , .bk-root.chart .bk{width:100% !important; max-width:100%;}
+  .bk-root.chart .bk .bk.bk-toolbar .bk{width:30px !important;}
+  .bk-root.chart .bk-canvas-events .bk{width:auto !important; left:0px !important;}
 }
 
 @media only screen and (max-width: 480px) {
