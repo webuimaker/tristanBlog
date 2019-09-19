@@ -1622,7 +1622,10 @@ pre code {
 
 
 body{padding:0px !important; margin:0px !important;}
-.search-box .wrapper1 .tt-menu, .search-box .wrapper1 .dropdown-menu, .search-box .wrapper1 span.twitter-typeahead .tt-menu {display:none !important}
+
+/*
+.search-box .wrapper1 .tt-menu, .search-box .wrapper1 .dropdown-menu, .search-box .wrapper1 span.twitter-typeahead .tt-menu {display:none !important}*/
+#search-box {background:transparent}
 .search-box .wrapper1 {width:210px; position:relative;}
 .search-box .wrapper1 .results-search{
 	position: absolute;

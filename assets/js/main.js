@@ -1,12 +1,13 @@
 $(function () {
-/*
+
   function initSearchBox() {
     var pages = new Bloodhound({
       datumTokenizer: Bloodhound.tokenizers.obj.whitespace('title'),
       // datumTokenizer: Bloodhound.tokenizers.whitespace,
       queryTokenizer: Bloodhound.tokenizers.whitespace,
 
-      prefetch: baseurl + '/search.json'
+      //prefetch: baseurl + '/search.json'
+      prefetch: '/search.json'
     });
 
     $('#search-box').typeahead({
@@ -29,5 +30,5 @@ $(function () {
   }
 
   initSearchBox();
-  styleContentToMD();*/
+  styleContentToMD();
 });

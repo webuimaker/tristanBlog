@@ -3,8 +3,8 @@
 <!--
 <script src="{{site.baseurl}}/assets/js/main.js"></script>-->
 <script src="{{site.baseurl}}/assets/js/ideal-image-slider.js"></script>
-<!--
-<script src="{{site.baseurl}}/assets/js/typeahead.bundle.min.js"></script>-->
+
+<script src="{{site.baseurl}}/assets/js/typeahead.bundle.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
 
 <!-- JS -->
@@ -17,7 +17,7 @@
     json: '{{site.baseurl}}/search.json',
     searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
     noResultsText: 'No results found',
-    fuzzy: false,
+    fuzzy: true,
     exclude: ['Welcome']
   });
 </script>
