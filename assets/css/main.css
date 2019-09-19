@@ -1507,6 +1507,11 @@ pre code {
   
   .search-box .wrapper1 .results-search{ bottom:100%; max-height:130px; overflow-y:scroll;}
   .maxmobwidth {overflow-x: scroll; max-width:100%; display:none;}
+  
+  .include-out{clear:both; position:relative;}
+  .include-out:after{clear:both; position:relative;}
+  .include-out:before{clear:both; position:relative;}
+  
   /*
   .maxmobwidth div div div {width:100% !important; max-width:100%;}
   .maxmobwidth div div div svg{width:100% !important; max-width:100%; overflow:visible}
