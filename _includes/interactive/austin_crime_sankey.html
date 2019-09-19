@@ -73,7 +73,7 @@ google.charts.load('current', {'packages':['sankey']});
 
     var options = {
       height: 600,
-      width: 800,
+      //width: 800,
       sankey: {
         node: {
           colors: colors
@@ -90,12 +90,16 @@ google.charts.load('current', {'packages':['sankey']});
         var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
         chart.draw(data, options);
       }
+	  
+	  $(window).resize(function(){
+		  drawChart();
+		});
 
     </script>
   </head>
 
   <body>
     <!--Div that will hold the pie chart-->
-    <div id="sankey_basic"></div>
+    <div id="sankey_basic" class="chart"></div>
   </body>
 </html>
