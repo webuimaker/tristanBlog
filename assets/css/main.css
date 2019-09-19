@@ -1424,7 +1424,7 @@ pre code {
 }
 
 /* = = = = = = = = = = Animate Styles = = = = = = = = = = */
-.main-header,
+/*.main-header,
 .page-image,
 .page-content,
 .about-container,
@@ -1475,7 +1475,7 @@ pre code {
             transform: translateY(0);
   }
 }
-
+*/
 /* = = = = = = = = = = Media = = = = = = = = = = */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
