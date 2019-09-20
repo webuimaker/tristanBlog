@@ -1521,6 +1521,8 @@ pre code {
   .bk-root.chart canvas , .bk-root.chart .bk{width:100% !important; max-width:100%;}
   .bk-root.chart .bk .bk.bk-toolbar .bk{width:30px !important;}
   .bk-root.chart .bk-canvas-events .bk{width:auto !important; left:0px !important;}
+  
+  .search-box.pull-left {float: none !important}
 }
 
 @media only screen and (max-width: 480px) {
